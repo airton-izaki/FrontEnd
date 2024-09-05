@@ -1,0 +1,92 @@
+#root {   
+  
+  margin: 30px;
+  padding: 0;
+}
+
+.container
+{
+    max-width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    
+}
+
+header
+{
+    margin-bottom: 50px;
+    margin-left: 30PX;
+}
+
+hr
+{
+    border: 0;
+    height: 2px;
+    background: red;    
+}
+
+.header h1
+{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    padding: 25px;
+}
+
+header label
+{
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+header input
+{
+    padding-left: 10px;
+    width: 80%;
+    height: 3.5vh;
+    margin-top: 5px;
+    border: none;
+}
+
+.question label
+{
+    display: block;
+}
+
+textarea
+{
+    width: 95%;
+    height: 4rem;
+    border: none;
+    border-radius: 5px;   
+}
+
+section
+{
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+;.question
+{
+    padding-bottom: 100px;
+}
+
+.button
+{
+    display: grid;
+}
+.button button
+{
+    margin: 30px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    justify-self: end;
+}
